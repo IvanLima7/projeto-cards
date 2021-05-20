@@ -1,4 +1,27 @@
 {
-    "title": "Conceitos do Styled Components e suas propriedades",
-    "description": "use styled components pq eh bão"
+  "Card": [
+    {
+      "Texto": "Conceitos Card 1",
+      "Description": "Essa é a descrição do Conceitos Card 1 "
+    },
+    {
+      "Texto": "Conceitos Card 2",
+      "Description": "Essa é a descrição do Conceitos Card 2"
+    },
+    {
+      "Texto": "Conceitos Card 3",
+      "Description": "Essa é a descrição do Conceitos Card 3"
+    },
+    {
+      "Texto": "Conceitos Card 4",
+      "Description": "Essa é a descrição do Conceitos Card 4"
+    }
+  ],
+
+  "Footer": [ 
+    {
+    "Image": " url(./images/valorante.png)",
+    "Texto": "Valorant é o novo jogo FPS da Riot Games, a mesma desenvolvedora do League of Legends (LoL). Onde só gado joga esse jogo"
+    }
+  ]
 }
