@@ -44,10 +44,32 @@ const Card = styled.div`
   }
 
   :hover {
+    width: 19vw;
     height: 52vh;
     transition: 0.2s;
     border-bottom: 5px solid white;
+    box-shadow: rgb(0 0 0 / 40%) 4px 8px 20px 0px;
   }
+`;
+
+const Button = styled.a`
+  width: 15vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #6495ED;
+  color: white;
+
+  :hover {
+    width: 16vw;
+    height: 9vh;
+    transition: 0.2s;
+    border-bottom: 5px solid white;
+  }
+
 `;
 
 const MainFooter = styled.div`
@@ -71,11 +93,12 @@ const Footer = styled.div`
     width: 20vw;
     height: 40vh;
   }
-  p{
+  a{
     height: 10vh;
     margin-top: 40px;
     text-align: center;
     font-size: 15px;
+    text-decoration: none;
     border-bottom: 1px solid white;
     color: #fff;
 
@@ -104,13 +127,16 @@ function App() {
           })
         }
       </MainCard>
+
+      <Button href="https://styled-components.com" target="_blank" rel="Page Styled Components"> Style Components</Button>
+      
       <MainFooter>
         {
           Data.Footer.map((res) => {
             return (
               <Footer>
                 <img style={{ backgroundImage: `${res.Image}` }} />
-                <p>{res.Texto}</p>
+                <a href="#">{res.Texto}</a>
               </Footer>
             )
           })
