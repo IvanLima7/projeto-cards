@@ -118,7 +118,7 @@ function Main(props) {
           {
             Data.Card.map((res) => {
               return (
-                <Card>
+                <Card style={{background: props.colorCard}}>
                   <h1>{res.Texto}</h1>
                   <p>{res.Description}</p>
                 </Card>

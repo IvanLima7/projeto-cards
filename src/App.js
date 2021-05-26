@@ -8,7 +8,9 @@ function App() {
   return (
     <Main 
     firstName="Gabriel Cards"
-    background="Green"/>
+    background="Green"
+    colorCard = "purple"
+    />
     
   );
 }
