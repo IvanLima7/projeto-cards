@@ -6,11 +6,7 @@ import Main from './pages/main';
 
 function App() {
   return (
-    <Main 
-    firstName="Gabriel Cards"
-    background="Green"
-    colorCard = "purple"
-    />
+    <Main />
     
   );
 }

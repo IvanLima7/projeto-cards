@@ -16,12 +16,5 @@
       "Texto": "Conceitos Card 4",
       "Description": "Essa é a descrição do Conceitos Card 4"
     }
-  ],
-
-  "Footer": [ 
-    {
-    "Image": " url(./images/valorante.png)",
-    "Texto": "Valorant é o novo jogo FPS da Riot Games, a mesma desenvolvedora do League of Legends (LoL). Onde só gado joga esse jogo"
-    }
   ]
 }

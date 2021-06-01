@@ -8,6 +8,7 @@ const Content = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  background: #101823;
 `;
 
 const MainCard = styled.div`
@@ -24,12 +25,12 @@ const Card = styled.div`
   height: 50vh;
   border-radius: 5px;
   margin-top: 10px;
-  background: #6495ED;
+  background: #ff4654;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: rgb(0 0 0 / 30%) 4px 8px 20px 0px;
+  box-shadow: rgb(0 0 0 / 50%) 4px 8px 20px 0px;
   h1{
     text-align: center;
     font-size: 20px;
@@ -50,7 +51,7 @@ const Card = styled.div`
   }
 `;
 
-const Button = styled.button`
+const Button = styled.a`
   width: 15vw;
   height: 8vh;
   display: flex;
@@ -58,10 +59,11 @@ const Button = styled.button`
   justify-content: center;
   text-decoration: none;
   border-radius: 5px;
-  background: #6495ED;
+  background: #ff4654;
   color: white;
   border: none;
   cursor: pointer;
+  margin-top: 20px;
   
   :hover {
     width: 16vw;
@@ -72,28 +74,21 @@ const Button = styled.button`
 
 `;
 
-const MainFooter = styled.div`
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
 
-const Footer = styled.div`
+const MainFooter = styled.div`
   width: 50vw;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;  
+  justify-content: center; 
+  margin-top: 20px; 
 
   img{
     width: 20vw;
     height: 40vh;
   }
-  a{
+  p{
     height: 10vh;
     margin-top: 40px;
     text-align: center;
@@ -103,8 +98,8 @@ const Footer = styled.div`
     color: #fff;
 
     :hover {
-    color: red;
-    border-bottom: 1px solid red;
+    color: #ff4654;
+    border-bottom: 1px solid #ff4654;
 
     }
   }
@@ -130,19 +125,13 @@ function Main(props) {
         <Button href="https://styled-components.com" target="_blank" rel="Page Styled Components"> Style Components</Button>
         
         <MainFooter>
-          {
-            Data.Footer.map((res) => {
-              return (
-                <Footer>
-                  <img style={{ backgroundImage: `${res.Image}` }} />
-                  <a href="#">{res.Texto}</a>
-                </Footer>
-              )
-            })
-          }
+          <img src="./images/valorante.png"/>
+           <p>Valorant é o novo jogo FPS da Riot Games, a mesma desenvolvedora do League of Legends (LoL). Onde só gado joga esse jogo</p>
         </MainFooter>
       </Content>
     );
-  }
+  } 
+  
+  /*#ff4654 #101823*/
   
   export default Main;
