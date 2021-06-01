@@ -22,7 +22,7 @@ const MainCard = styled.div`
 
 const Card = styled.div`
   width: 18vw;
-  height: 50vh;
+  height: ${props => props.altura};
   border-radius: 5px;
   margin-top: 10px;
   background: #ff4654;
@@ -44,7 +44,7 @@ const Card = styled.div`
 
   :hover {
     width: 19vw;
-    height: 52vh;
+    height: ${props => props.aumento};
     transition: 0.2s;
     border-bottom: 5px solid white;
     box-shadow: rgb(0 0 0 / 40%) 4px 8px 20px 0px;
@@ -113,7 +113,7 @@ function Main(props) {
           {
             Data.Card.map((res) => {
               return (
-                <Card style={{background: props.colorCard}}>
+                <Card altura="50vh" aumento="52vh" style={{background: props.colorCard}}>
                   <h1>{res.Texto}</h1>
                   <p>{res.Description}</p>
                 </Card>
@@ -121,6 +121,8 @@ function Main(props) {
             })
           }
         </MainCard>
+          <Card altura="30vh" aumento="32vh"></Card>
+          <Card altura="70vh" aumento="66vh"></Card>
   
         <Button href="https://styled-components.com" target="_blank" rel="Page Styled Components"> Style Components</Button>
         
