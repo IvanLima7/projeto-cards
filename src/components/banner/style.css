@@ -1,0 +1,34 @@
+.MainBanner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ImgBanner {
+    width: 80%;
+    height: auto;
+    position: absolute;
+}
+
+.DivBanner {
+    width: 78%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    font-size: 30px;
+    font-family: sans-serif ;
+    color: transparent
+}
+
+
+.DivBanner:hover{
+    width: 80%;
+    height: 98vh;
+    transition: 0.7s;
+    color: white;
+    background: #ff465644;
+}

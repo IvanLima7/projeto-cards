@@ -1,0 +1,33 @@
+.MainButton{
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Button{
+  width: 15vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #ff4654;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  
+}
+.Button:hover {
+  width: 16vw;
+  height: 9vh;
+  transition: 0.2s;
+  border-bottom: 5px solid white;
+}
+a{
+    color: white;
+    background: transparent;
+    text-decoration: none;
+}
