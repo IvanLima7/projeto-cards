@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     background: url("../../images/valorant-capa.jpg") no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100%;
 }
 
 .DivBanner {
