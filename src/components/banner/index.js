@@ -5,8 +5,8 @@ function Banner() {
       <div className="MainBanner">
           <div className="DivBanner">
               <p className="TextoDivBanner">Gabriel Gado</p>
+              <img className="ImgBanner" src="./images/valorant-capa.jpg"/>
           </div>
-          <img className="ImgBanner" src="./images/valorant-capa.jpg"/>
           
       </div>
     );
