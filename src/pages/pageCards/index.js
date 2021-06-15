@@ -19,6 +19,7 @@ const MainCard = styled.div`
   
 
   .Card {
+    width: 25vw;
     height: 50vh;
     background-size: 95% 60%;
     background-position:center;
@@ -69,13 +70,13 @@ function PageCards(props) {
           Data.Card.map((res) => {
             return (
               <div className="Card" style={{ backgroundImage: `${res.image}` }}></div>
-              
+
             )
           })
         }
       </MainCard>
       <MainText>
-      {
+        {
           Data.Card.map((res) => {
             return (
               <div className="DivText">
@@ -86,8 +87,6 @@ function PageCards(props) {
           })
         }
       </MainText>
-
-
     </Content>
 
   );
