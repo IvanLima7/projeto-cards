@@ -6,7 +6,7 @@ function Banner() {
       <div className="ImgBanner">
         <div className="DivBanner">
 
-          <p className="TextoDivBanner">Gabriel Unstoppable</p>
+          <p className="TextoDivBanner">Gabriel Gado Prata I</p>
         </div>
       </div>
 

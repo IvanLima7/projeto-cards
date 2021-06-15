@@ -1,0 +1,26 @@
+{
+    "Card": [
+      {
+        "image": "url(./images/astraValorant.jpeg)",
+        "Texto": "ASTRA",
+        "Description": " a Agente ganense, utiliza energias cósmicas para moldar o campo de batalha a seu bel-prazer. Com total domínio da sua forma astral e um talento estratégico nato, ela está sempre anos-luz à frente dos inimigos. "
+      },
+      {
+        "image": "url(./images/killjoyValorant.jpg)",
+        "Texto": "KILLJOY",
+        "Description": "Killjoy é uma renomada engenheira alemã. Suas habilidades são baseadas em engenhocas e armadilhas. Os dispositivos levam um certo tempo para serem posicionados no mapa, portanto, é uma agente que funciona melhor na defesa. Ela precisa de comunicação e informações colhidas por aliados para tirar o melhor proveito de suas skills."
+      },
+      {
+        "image": "url(./images/jettValorant.jpg)",
+        "Texto": "JETT",
+        "Description": " uma duelista da Coreia do Sul. Bastante móvel e letal, ela utiliza o ar para se impulsionar e lâminas afiadas para eliminar adversários. Jett não é uma agente fácil de jogar, já que está constantemente trocando de direção. É preciso muito treinamento (e dedo) para dominar suas mecânicas."
+      },
+      {
+        "image": "url(./images/razeValorant.jpg)",
+        "Texto": "RAZE",
+        "Description": "Raze é a representante brasileira no Valorant! Trata-se de uma agente predominantemente ofensiva, pois a maioria de suas habilidades tem natureza explosiva. Seu poder de fogo é ótimo para a linha de frente de qualquer composição."
+      }
+      
+      
+    ]
+  }
