@@ -20,7 +20,7 @@ const MainCard = styled.div`
 
   .Card {
     height: 50vh;
-    background-size: 420px 320px;
+    background-size: 95% 60%;
     background-position:center;
     background-repeat:no-repeat;
     margin-left: 20px;
