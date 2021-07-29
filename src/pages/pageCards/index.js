@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Data from '../pageCards/data.json';
+import Menu from '../../components/Menu';
 
 const Content = styled.div`
   width: 100%;
@@ -16,8 +17,8 @@ const MainCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  
+  padding-top: 5%;
+
 
   .CardPage {
     width: 80%;
@@ -56,6 +57,7 @@ const MainText = styled.div`
 function PageCards(props) {
   return (
     <Content>
+      <Menu />
       <MainCard>
         {
           Data.Card.map((res) => {

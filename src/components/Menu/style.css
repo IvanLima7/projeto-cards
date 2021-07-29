@@ -1,3 +1,51 @@
 .MainMenu{
-    background: blue;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.979);
 }
+
+.DivValorante{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.DivImage{
+    height: 100%;
+    width: auto;
+}
+
+.DivPages{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.DivTexto{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6d6d6d;
+}
+
+.DivTexto:hover{
+
+    border-bottom: 2px solid white;
+    color: white;
+}
+

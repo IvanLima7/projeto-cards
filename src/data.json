@@ -1,20 +1,19 @@
 {
   "Card": [
     {
-      "Texto": "Conceitos Card 1",
-      "Description": "Essa é a descrição do Conceitos Card 1 "
+      "Image": "url(./images/valorantToneio.png)",
+      "Texto": "Torneios de comunidade",
+      "Description": "Saiba tudo sobre os torneios de comunidade - 30/07 A 12/08"
     },
     {
-      "Texto": "Conceitos Card 2",
-      "Description": "Essa é a descrição do Conceitos Card 2"
+      "Image": "url(./images/jettValorant.jpg)",
+      "Texto": "Concurso de fanart",
+      "Description": "Conheça os vencedores do concurso"
     },
     {
-      "Texto": "Conceitos Card 3",
-      "Description": "Essa é a descrição do Conceitos Card 3"
-    },
-    {
-      "Texto": "Conceitos Card 4",
-      "Description": "Essa é a descrição do Conceitos Card 4"
+      "Image": "url(./images/valorantTema.png)",
+      "Texto": "Outras noticias",
+      "Description": "Veja essas e outras noticias"
     }
   ]
 }

@@ -1,40 +1,23 @@
 .MainBanner {
-    width: 80vw;
-    height: 87vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-top: 10px;
+    padding-top: 2%;
+    
     
 }
 
 .ImgBanner {
-    width: 80vw;
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    background: url("../../images/valorant-capa.jpg") no-repeat;
+    background: url("../../images2/soyacapa.png") no-repeat;
+    background-position: center;
     background-size: 100% 100%;
 }
 
-.DivBanner {
-    width: 80%;
-    height: 78vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9;
-    font-size: 30px;
-    font-family: sans-serif ;
-    color: transparent;
-}
 
-
-.DivBanner:hover{
-    width: 80vw;
-    height: 100%;
-    transition: 0.7s;
-    color: white;
-    background: #ff465644;
-}

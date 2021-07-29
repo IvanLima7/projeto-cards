@@ -7,10 +7,10 @@ function Cards(props) {
           {
             Data.Card.map((res) => {
               return (
-                <div className="Card">
+                <div className="Card" style={{ backgroundImage: `${res.Image}` }}>
                   <h1 className="TituloCard">{res.Texto}</h1>
-                  <p className="TextoCard">{res.Description}</p>
-                </div>
+                  <a href="#" className="TextoCard">{res.Description}</a>
+                </div >
               )
             })
           }

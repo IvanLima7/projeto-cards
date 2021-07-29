@@ -4,10 +4,7 @@ function Banner() {
   return (
     <div className="MainBanner">
       <div className="ImgBanner">
-        <div className="DivBanner">
-
-          <p className="TextoDivBanner">Gabriel Gado Prata I</p>
-        </div>
+        <div className="DivBanner"></div>
       </div>
 
 
