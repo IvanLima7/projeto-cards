@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import Menu from "../../components/Menu"
 import Cards from "../../components/cards";
 import Buttons from "../../components/buttons";
 import Footers from "../../components/Footers";
 import Banner from "../../components/banner";
+
 
 const Content = styled.div`
   width: 100%;
@@ -19,6 +21,7 @@ const Content = styled.div`
 function Main(props) {
   return (
     <Content>
+      <Menu />
       <Banner/>
       <Cards />
       <Buttons />

@@ -7,7 +7,7 @@ import PageCards from './pages/pageCards';
 
 function App() {
   return (
-    <Main />
+    <PageCards />
     
   );
 }

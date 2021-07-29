@@ -5,6 +5,8 @@ const Content = styled.div`
   width: 100%;
   height: auto;
   display: flex;
+  justify-content: center;
+  aling-items: center;
   background: #101823;
 `;
 
@@ -13,42 +15,31 @@ const MainCard = styled.div`
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: baseline;
+  align-items: center;
   
   
 
-  .Card {
-    width: 25vw;
-    height: 50vh;
-    background-size: 95% 60%;
+  .CardPage {
+    width: 80%;
+    height: 60vh;
+    background-size: contain;
     background-position:center;
     background-repeat:no-repeat;
-    margin-left: 20px;
-
-
-      :hover {
-        width: 30vw;
-        height: 48vh;
-        transition: 0.4s;
-        border-bottom: 5px solid white;
-        box-shadow: rgb(0 0 0 / 40%) 4px 8px 20px 0px;
-    }
   }
 `;
 
 const MainText = styled.div`
-  width: 100%;
+  width: 45%;
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-right: 20px;
 
   .DivText{
     width: 100%;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: baseline;
   }
 
@@ -69,8 +60,7 @@ function PageCards(props) {
         {
           Data.Card.map((res) => {
             return (
-              <div className="Card" style={{ backgroundImage: `${res.image}` }}></div>
-
+              <div className="CardPage" style={{ backgroundImage: `${res.image}` }}></div>
             )
           })
         }
