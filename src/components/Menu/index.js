@@ -1,18 +1,28 @@
 import "../Menu/style.css"
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+
 
 function Menu(props) {
     return (
+                
         <div className="MainMenu">
             <div className="DivValorante">
             <img className="DivImage" src="./images/NovoLogo.png"/>
-            <a href="#" className="DivTexto">Valorante</a>
+            <a href="/" className="DivTexto">Valorant</a>
             </div>
             <div className="DivPages">
                 <a href="#" className="DivTexto">Sobre o Jogo</a>
-                <a href="#" className="DivTexto">Personagens</a>
+                <a href="/pagecards" className="DivTexto">Personagens</a>
             </div>
 
-        </div>
+        </div> 
+
+
     );
 }
 
