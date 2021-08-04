@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Menu from "../../components/Menu"
 import Cards from "../../components/cards";
-import Buttons from "../../components/buttons";
+import Atualizacao from "../../components/atualizacao";
 import Footers from "../../components/Footers";
 import Banner from "../../components/banner";
 
@@ -23,7 +23,7 @@ function Main(props) {
       <Menu />
       <Banner/>
       <Cards />
-      <Buttons />
+      <Atualizacao />
       <Footers />
 
     </Content>

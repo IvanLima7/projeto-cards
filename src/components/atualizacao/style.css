@@ -1,0 +1,51 @@
+.Main{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+  background-color: black;
+}
+
+.MainImg{
+  width: 55%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.Image{
+  width: 100%;
+}
+
+.MainTexto{
+  width: 50%;
+  height: 50vh;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TextoTitulo{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #bebebe;
+  text-align: justify;
+  cursor: pointer;
+}
+
+.TextoParagrafo{
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6d6d6d;
+  cursor: pointer;
+
+}
+
+.TextoParagrafo:hover{
+  color: #00febc;
+}
+
+.TextoTitulo:hover{
+  color: #00febc;
+}
