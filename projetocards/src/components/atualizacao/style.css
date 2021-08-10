@@ -12,11 +12,17 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  background: blue;
 
 }
 
 .Image{
   width: 100%;
+}
+
+.MainImg:hover{
+  width: 58%;
+  transition: 0.5s;
 }
 
 .MainTexto{
@@ -44,16 +50,10 @@
   font-family: Arial, Helvetica, sans-serif;
   color: #6d6d6d;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .SaibaMais:hover{
   color: #00febc;
 }
 
-.TextoParagrafo:hover{
-  color: #00febc;
-}
-
-.TextoTitulo:hover{
-  color: #00febc;
-}

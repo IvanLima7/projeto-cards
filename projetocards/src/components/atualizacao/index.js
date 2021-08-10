@@ -8,11 +8,11 @@ function Atualizacao(props) {
                 <img className="Image" src="./images/ValorantAgente14.jpg" />
             </div>
             <div className="MainTexto">
-                <h2 className="TextoTitulo">Nova atualização do Valorant</h2>
+                <h2 className="TextoTitulo">Nova atualização Valorant</h2>
                 <p className="TextoParagrafo">Yoru, nativo do Japão, abre buracos na realidade para se infiltrar nas linhas inimigas invisíveis.
                     Usando engano e agressão em medidas iguais, ele atinge cada alvo antes que eles saibam para onde olhar.
                 </p>
-                <a className="SaibaMais">-- Saiba Mais --</a>
+                <a href="/pagecards" className="SaibaMais">-- Saiba Mais --</a>
             </div>
         </div>
     );
