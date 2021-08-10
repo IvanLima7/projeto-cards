@@ -1,10 +1,10 @@
-.Main{
+.MainAtualizacao{
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10%;
-  background-color: black;
+  margin-top: 13%;
+  background: black;
 }
 
 .MainImg{
@@ -31,15 +31,23 @@
   font-family: Arial, Helvetica, sans-serif;
   color: #bebebe;
   text-align: justify;
-  cursor: pointer;
 }
 
 .TextoParagrafo{
   width: 80%;
   font-family: Arial, Helvetica, sans-serif;
   color: #6d6d6d;
-  cursor: pointer;
 
+}
+
+.SaibaMais{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6d6d6d;
+  cursor: pointer;
+}
+
+.SaibaMais:hover{
+  color: #00febc;
 }
 
 .TextoParagrafo:hover{
