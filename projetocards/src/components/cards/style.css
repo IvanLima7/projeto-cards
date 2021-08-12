@@ -35,7 +35,8 @@
 .TextoCard {
     width: 80%;
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
+    font-family: "FF Mark W05";
     text-decoration: none;
     color: #6d6d6d;
 }

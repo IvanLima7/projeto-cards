@@ -1,14 +1,15 @@
 import styled from "styled-components";
-import Data from '../pageCards/data.json';
-import Menu from '../../components/Menu';
+import Data from './data.json';
 
 const Content = styled.div`
   width: 100%;
   height: auto;
   display: flex;
+  flex-direction: roww;
   justify-content: center;
   aling-items: center;
   background: #101823;
+  margin-top: 5%;
 `;
 
 const MainCard = styled.div`
@@ -22,7 +23,7 @@ const MainCard = styled.div`
 
   .CardPage {
     width: 80%;
-    height: 60vh;
+    height: 65vh;
     background-size: contain;
     background-position:center;
     background-repeat:no-repeat;
@@ -57,15 +58,14 @@ const MainText = styled.div`
 function PageCards(props) {
   return (
     <Content>
-      <Menu />
       <MainCard>
         {
           Data.Card.map((res) => {
             return (
               <div className="CardPage" style={{ backgroundImage: `${res.image}` }}></div>
-            )
-          })
-        }
+              )
+            })
+          }
       </MainCard>
       <MainText>
         {

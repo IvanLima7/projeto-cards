@@ -17,7 +17,7 @@ function Menu(props) {
             </div>
             <div className="DivPages">
                 <a href="#" className="DivTexto">Sobre o Jogo</a>
-                <a href="/pagecards" className="DivTexto">Personagens</a>
+                <a href="/personagens" className="DivTexto">Personagens</a>
             </div>
 
         </div>

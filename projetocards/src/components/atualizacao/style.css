@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  background: blue;
+  
 
 }
 
@@ -35,20 +35,22 @@
 }
 
 .TextoTitulo{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "FF Mark W05";
   color: #bebebe;
   text-align: justify;
 }
 
 .TextoParagrafo{
   width: 80%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "FF Mark W05";
+  font-size: 18px;
   color: #6d6d6d;
 
 }
 
 .SaibaMais{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "FF Mark W05";
+  font-size: 18px;
   color: #6d6d6d;
   cursor: pointer;
   text-decoration: none;

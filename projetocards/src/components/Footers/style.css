@@ -1,6 +1,27 @@
 .MainFooter{
-  width: 50vw;
+  width: 100%;
   height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  margin-top: 20%; 
+  background-color: black;
+
+}
+
+.FooterLeft{
+  width: 40%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px; 
+}
+
+.FooterRight{
+  width: 40%;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,20 +29,35 @@
   margin-top: 20px; 
 
 }
+
 .ImgFooter{
-  width: 20vw;
-  height: 40vh;
+  width: 10vw;
+  height: 20vh;
 }
 
 
 .TextoFooter{
-  height: 10vh;
+  width: 70%;
+  height: 15vh;
   margin-top: 40px;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
+  font-family: "FF Mark W05";
   text-decoration: none;
   border-bottom: 1px solid white;
+  color: white;
+
+}
+
+.ParagrafoFooter{
+  width: 70%;
+  height: 10vh;
+  text-align: center;
+  font-size: 18px;
+  font-family: "FF Mark W05";
+  text-decoration: none;
   color: #fff;
+  margin-left: 35px;
 
 }
 
@@ -30,3 +66,17 @@
   border-bottom: 1px solid #00febc;
 
 }
+
+li {
+  list-style: none;  
+}
+
+ul {
+  height: 30%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
