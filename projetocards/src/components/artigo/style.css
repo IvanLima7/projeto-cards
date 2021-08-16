@@ -29,7 +29,7 @@
 
 .Paragrafo{
     width: 90%;
-    color: white;
+    color: #aaaaaa;
     font-family: "FF Mark W05";
     font-size: 18px;
 }
@@ -41,12 +41,12 @@ table{
 
 tbody{
     height: 30vh;
-    color: white;
+    color: #d8d8d8;
     background-color: black;
 }
 
 tr:nth-child(even){
-    color:white;
+    color:#d8d8d8;
     background-color: #101d2e;
 }
 
