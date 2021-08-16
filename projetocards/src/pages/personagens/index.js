@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Menu from "../../components/Menu";
 import Footers from "../../components/Footers";
-import PageCards from "../cards";
+import PageCards from "../pageCards";
 
 
 const Content = styled.div`
