@@ -12,7 +12,7 @@ function Atualizacao(props) {
                 <p className="TextoParagrafo">Yoru, nativo do Japão, abre buracos na realidade para se infiltrar nas linhas inimigas invisíveis.
                     Usando engano e agressão em medidas iguais, ele atinge cada alvo antes que eles saibam para onde olhar.
                 </p>
-                <a href="/pagecards" className="SaibaMais">-- Saiba Mais --</a>
+                <a href="/personagens" className="SaibaMais">-- Saiba Mais --</a>
             </div>
         </div>
     );

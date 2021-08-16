@@ -2,6 +2,7 @@ import './App.css';
 import styled from "styled-components";
 import Data from "./data.json"
 import Main from './pages/main';
+import SobreJogo from './pages/sobreJogo';
 import Personagens from './pages/personagens';
 import {
   BrowserRouter as Router,
@@ -16,6 +17,9 @@ function App() {
     <Router>
       <div>
         <Switch>
+          <Route path="/sobreJogo">
+            <SobreJogo/>
+          </Route>
           <Route path="/personagens">
             <Personagens />
           </Route>

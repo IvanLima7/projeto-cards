@@ -1,0 +1,56 @@
+.Main{
+    width: 90%;
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #101d2e;
+}
+
+.Artigo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.Titulo{
+    text-align: center;
+    font-family: "FF Mark W05";
+    color: #ff3e4f;
+}
+
+.SubTitulo{
+    width: 90%;
+    color: #ff3e4f;
+}
+
+.Paragrafo{
+    width: 90%;
+    color: white;
+    font-family: "FF Mark W05";
+    font-size: 18px;
+}
+
+table{
+    width: 40%;
+    margin-top: 5%;
+}
+
+tbody{
+    height: 30vh;
+    color: white;
+    background-color: black;
+}
+
+tr:nth-child(even){
+    color:white;
+    background-color: #101d2e;
+}
+
+td, tr{
+    text-align:center;
+
+}
