@@ -1,0 +1,17 @@
+.Main{
+    width: 90%;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #101d2e;
+}
+
+.DivArtigo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import "../artigo/style.css";
+import "./style.css";
 
 const Content = styled.div`
   width: 100%;

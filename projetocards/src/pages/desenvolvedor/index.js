@@ -1,7 +1,7 @@
 import styled from "styled-components";
+import ArtigoDesenvolvedor from "../../components/artigoDesenvolvedor";
 import Menu from "../../components/Menu";
 import Footers from "../../components/Footers";
-import Artigo from "../../components/artigoSobreJogo";
 
 const Content = styled.div`
   width: 100%;
@@ -14,11 +14,11 @@ const Content = styled.div`
 
 
 
-function SobreJogo(props) {
+function Desenvolvedor(props) {
   return (
     <Content>
       <Menu />
-      <Artigo/>
+      <ArtigoDesenvolvedor />
       <Footers />
     </Content>
   );
@@ -26,4 +26,4 @@ function SobreJogo(props) {
 
 /*#ff4654 #101823*/
 
-export default SobreJogo;
+export default Desenvolvedor;

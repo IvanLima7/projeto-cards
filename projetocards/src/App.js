@@ -4,6 +4,7 @@ import Data from "./data.json"
 import Main from './pages/main';
 import SobreJogo from './pages/sobreJogo';
 import Personagens from './pages/personagens';
+import Desenvolvedor from './pages/desenvolvedor';
 import {
   BrowserRouter as Router,
   Switch,
@@ -17,6 +18,9 @@ function App() {
     <Router>
       <div>
         <Switch>
+          <Route path="/desenvolvedor">
+            <Desenvolvedor/>
+          </Route>
           <Route path="/sobreJogo">
             <SobreJogo/>
           </Route>
