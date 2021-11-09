@@ -4,12 +4,12 @@ import Menu from "../../components/Menu";
 import Footers from "../../components/Footers";
 
 const Content = styled.div`
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #101823;
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #101823;
 `;
 
 
